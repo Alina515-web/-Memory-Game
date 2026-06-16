@@ -1,43 +1,44 @@
-<DOCTYPE HTML>
-    <HTML LANG="RU">
-    <HEAD>
-        <meta charset="UTF-8">
-        <meta  name="vierport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <title> Найди пару | Memory game</title>
-        <link rel="stylesheet" href="style.css">
-    </HEAD>
-    <body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Найди пару | Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <div class="game-container">
         <header class="game-header">
-            <h1>🧠 Найди пару</h1>
+            <h1>🎴 Найди пару 🎴</h1>
             <div class="stats">
                 <div class="score-box">
-                    <span> 🏆 Очки: </span>
+                    <span>🏆 Очки:</span>
                     <span id="scoreValue">0</span>
                 </div>
                 <div class="attempts-box">
-                    <span>🔃 Попытки: </span>
+                    <span>🔄 Попытки:</span>
                     <span id="attemptsValue">0</span>
                 </div>
             </div>
-            <button id="resetGameBtn" class="reset-btn">🕐 Новая игра </button>
+            <button id="resetGameBtn" class="reset-btn">🔄 Новая игра</button>
         </header>
 
         <div class="difficulty-panel">
-            <label> Сложность: </label>
+            <label>🎲 Сложность:</label>
             <select id="difficultySelect">
-                <option value="easy">Легкая (4*3) </option>
-                <option value="medium">Средняя (4*4) </option>
-                <option value="hard">Сложная (6*4) </option>
+                <option value="easy">Лёгкая (2x3)</option>
+                <option value="medium" selected>Средняя (4x4)</option>
+                <option value="hard">Сложная (6x4)</option>
             </select>
         </div>
 
         <div class="game-board" id="gameBoard">
+            <!-- карты будут сгенерированы через JS -->
         </div>
 
         <div class="game-message" id="gameMessage"></div>
     </div>
 
     <script src="game.js"></script>
-    </body>
-    </HTML>
+</body>
+</html>

@@ -1,8 +1,8 @@
 {
-  "cardsThemes": [
-    "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36",
-    "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36", "\uD83D\uDC36",
-    "❤\uFE0F", "\uD83E\uDE77", "\uD83E\uDDE1", "\uD83D\uDC9B", "\uD83D\uDC9A", "\uD83E\uDE75", "\uD83D\uDC9C", "\uD83D\uDDA4", "\uD83E\uDE76", "❤\uFE0F\u200D\uD83D\uDD25",
-    "\uD83E\uDD11", "\uD83D\uDE0D", "\uD83E\uDD23", "\uD83D\uDE0B", "\uD83D\uDE2D", "\uD83D\uDE34", "\uD83D\uDE0E", "\uD83D\uDE08", "\uD83E\uDD21", "\uD83E\uDD76"
+  "cardThemes": [
+    "🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼", "🐨", "🐯",
+    "🦁", "🐮", "🐷", "🐸", "🐵", "🐔", "🐧", "🐦", "🐴", "🐝",
+    "⭐", "🌙", "☀️", "🌈", "🍎", "🍒", "🍉", "🍓", "🥝", "🍕",
+    "⚽", "🏀", "🎮", "🎲", "🚗", "✈️", "🚀", "🎈", "🎵", "❤️"
   ]
 }
